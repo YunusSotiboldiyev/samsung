@@ -1,0 +1,119 @@
+header{
+     display: flex;
+}
+body{
+     background-color:rgb(170, 174, 174);
+}
+.all{
+     background-color:rgb(170, 174, 174);
+     width: 70%;
+     margin: auto;
+}
+.head{
+     display: flex;
+     text-align: center;
+     color: white;
+     border-radius: 25px;
+     background-color: rgb(26, 24, 24);
+     font-size: 40px;
+     padding: 20px;
+}
+.images--section1{
+     display: flex;  
+     width: auto;
+     height: auto;  
+     position: relative;
+}
+.img{
+     text-align: center;
+     align-items: center;
+     width: 33%;
+     height: auto;
+     border-radius: 25px;
+     margin: 10px;
+     background-color: white;
+     padding: 20px;
+}
+.images--section2 , .images--section3{
+     display: flex;  
+     position: relative;
+     width: auto;
+     height: auto;  
+}
+footer{
+     justify-content: space-between;
+     display: flex;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     background-color: white;
+     height: 100px;
+}
+header p ,h1{
+     margin: 0;
+}
+header{
+     justify-content: space-between;
+     margin-bottom: 20px;
+     padding: 20px;
+}
+header i{
+     padding: 5px 10px 0px;
+}
+.img{
+display: inline-block;
+}
+.img1{
+text-align: left;
+position: relative;
+}
+ .img1 .fa-heart{
+top: 10px;
+left: 10px;
+position: absolute;
+}
+.fa-star{
+position: absolute;
+bottom:10px;
+left: 10px;
+}
+.second{
+     position: absolute;
+     bottom:10px;
+     left: 30px;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     color: rgb(63, 62, 62);
+}
+.img3{
+     background-color: #efefef;
+}
+footer span{
+     color: orange;
+}
+.icons{
+     font-size: 40px;
+}
+.icon--head{
+     position: relative;
+}
+header i{
+     font-size: 20px;
+}
+.last{
+     display: flex;
+     width: auto;
+     height: 100px;
+}
+.img:hover{
+     margin-top: -7px;
+     transition:0.9s ease-in-out;
+}
+i:hover{
+     cursor: pointer;
+}
+.head:hover{
+     color: aqua;
+     background-color:#23232b;
+     transition:0.9s ease-in-out;
+}
